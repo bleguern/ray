@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INIT DIALOG DISCARDABLE  0, 0, 191, 220
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ray 3D Engine 0.2a - (C) 2003 DaRoN"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Launch",ID_LAUNCH,134,184,50,14
+    PUSHBUTTON      "Quit",ID_QUIT,134,199,50,14
+    PUSHBUTTON      "About",ID_ABOUT,7,199,50,14
+    COMBOBOX        IDC_RESOLUTION,126,6,57,94,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BPP,137,24,46,78,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Details",IDC_STATIC,7,54,177,113
+    CONTROL         "F&ullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,138,41,46,8
+    PUSHBUTTON      "Save",ID_SAVE,134,170,50,14
+    LTEXT           "Resolution :",IDC_STATIC,85,8,37,8
+    LTEXT           "Bpp :",IDC_STATIC,117,26,17,8
+    COMBOBOX        IDC_SHADOWS,14,79,58,72,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Shadows :",IDC_STATIC,15,67,52,8
+    COMBOBOX        IDC_TEXTURE_FILTERING,114,102,60,74,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Texture Filtering :",IDC_STATIC,114,92,56,8
+    GROUPBOX        "Texture Params",IDC_STATIC,107,66,71,56
+    CONTROL         "&Texturing",IDC_TEXTURING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,79,43,8
+    CONTROL         "&Fog",IDC_FOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,
+                    125,27,8
+    CONTROL         "&Antialiasing",IDC_ANTIALIASING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,138,50,8
+    CONTROL         "&Gouraud Shading",IDC_GOURAUD_SHADING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,151,70,8
+    CONTROL         "&Bump Mapping",IDC_BUMP_MAPPING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,112,60,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 213
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
